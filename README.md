@@ -1,3 +1,12 @@
+Little app created to test some react functionality.
+So far, testing hooks, custom hooks (using a debounce function to limit api calls) and playing with event bubbling
+
+## Additional script
+
+### `npm format`
+
+Format JS files contained in src/ folder using prettier
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
