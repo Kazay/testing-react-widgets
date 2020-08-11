@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useDebounced } from '../helpers;
+import { useDebounced } from '../helpers';
 
 const Search = () => {
   const [term, debouncedTerm, setDebouncedTerm] = useDebounced('', 1000);
