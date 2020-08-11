@@ -19,7 +19,7 @@ const Dropdown = ({ selected, onSelectedChange, options, label }) => {
   }, []);
 
   const renderedOptions = options
-    .filter((option) => option != selected)
+    .filter((option) => option !== selected)
     .map((option) => {
       return (
         <div

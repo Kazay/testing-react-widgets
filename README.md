@@ -1,6 +1,10 @@
 Little app created to test some react functionality.
 So far, testing hooks, custom hooks (using a debounce function to limit api calls) and playing with event bubbling
 
+## API KEY for Google Translate API
+
+Rename configSample.js to config.js and add your API key
+
 ## Additional script
 
 ### `npm format`
